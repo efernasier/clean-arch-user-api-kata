@@ -1,13 +1,14 @@
-package com.kata.users;
+package com.kata.users.app.spring;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+
 @SpringBootApplication
-public class UsersApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(UsersApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 
 }
